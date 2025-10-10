@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "cart": "Cart",
+    "favourites": "Favourites",
+    "search": "Search",
+    "admin": "Admin",
+    "logout": "Log out"
+  },
+  "hero": {
+    "eyebrow": "Seasonal highlights",
+    "title": "Elevate your everyday essentials",
+    "subtitle": "Discover Scandinavian minimalism crafted for longevity. Smooth GSAP animations and a premium theme make every visit memorable.",
+    "ctaPrimary": "Shop new arrivals",
+    "ctaSecondary": "Explore lookbook"
+  },
+  "newsletter": {
+    "title": "Stay in the loop",
+    "description": "Receive curated product drops, styling tips, and early access to launches.",
+    "placeholder": "your@email.com",
+    "submit": "Subscribe",
+    "success": "Thanks for joining!",
+    "error": "Something went wrong. Try again.",
+    "dismiss": "No thanks"
+  },
+  "products": {
+    "soldOut": "Sold out",
+    "addToCart": "Add to cart",
+    "added": "Added to cart",
+    "addToFavourites": "Add to favourites",
+    "removeFromFavourites": "Remove favourite",
+    "price": "Price",
+    "compare": "Compare at",
+    "details": "Product details"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is currently empty.",
+    "subtotal": "Subtotal",
+    "checkout": "Proceed to checkout",
+    "continue": "Continue shopping"
+  },
+  "admin": {
+    "login": {
+      "title": "Store owner sign in",
+      "subtitle": "Use your verified Firebase admin account.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "error": "Login failed. Please check your credentials.",
+      "loading": "Signing in..."
+    },
+    "nav": {
+      "overview": "Overview",
+      "products": "Products",
+      "categories": "Categories",
+      "newsletters": "Newsletter signups",
+      "settings": "Settings"
+    },
+    "products": {
+      "title": "Products",
+      "create": "Add product",
+      "empty": "No products yet",
+      "published": "Published",
+      "draft": "Draft",
+      "price": "Price",
+      "stock": "Stock",
+      "edit": "Edit"
+    },
+    "categories": {
+      "title": "Categories",
+      "create": "Add category"
+    },
+    "newsletters": {
+      "title": "Newsletter signups",
+      "export": "Export CSV"
+    },
+    "settings": {
+      "title": "Store settings",
+      "brandColor": "Brand color",
+      "accentColor": "Accent color",
+      "storeName": "Store name",
+      "save": "Save changes"
+    }
+  }
+}

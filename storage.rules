@@ -1,0 +1,9 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read;
+      allow write: if request.auth != null && (request.auth.token.admin == true || request.auth.uid in firestore.get(/databases/(default)/documents/siteSettings/singleton).data.adminUids);
+    }
+  }
+}

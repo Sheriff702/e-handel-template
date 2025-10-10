@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "home": "Hem",
+    "shop": "Butik",
+    "cart": "Kundvagn",
+    "favourites": "Favoriter",
+    "search": "Sök",
+    "admin": "Admin",
+    "logout": "Logga ut"
+  },
+  "hero": {
+    "eyebrow": "Säsongens höjdpunkter",
+    "title": "Höj nivån på dina vardagsfavoriter",
+    "subtitle": "Upplev skandinavisk minimalism skapad för att hålla. Mjuka GSAP-animationer och ett premiumtema gör varje besök minnesvärt.",
+    "ctaPrimary": "Handla nyheter",
+    "ctaSecondary": "Utforska lookbook"
+  },
+  "newsletter": {
+    "title": "Håll dig uppdaterad",
+    "description": "Få kurerade produktsläpp, stylingtips och förtur till lanseringar.",
+    "placeholder": "din@email.se",
+    "submit": "Prenumerera",
+    "success": "Tack för att du gick med!",
+    "error": "Något gick fel. Försök igen.",
+    "dismiss": "Nej tack"
+  },
+  "products": {
+    "soldOut": "Slutsåld",
+    "addToCart": "Lägg i varukorg",
+    "added": "Tillagd i varukorgen",
+    "addToFavourites": "Spara som favorit",
+    "removeFromFavourites": "Ta bort favorit",
+    "price": "Pris",
+    "compare": "Jämförpris",
+    "details": "Produktdetaljer"
+  },
+  "cart": {
+    "title": "Din kundvagn",
+    "empty": "Din kundvagn är tom.",
+    "subtotal": "Delsumma",
+    "checkout": "Till kassan",
+    "continue": "Fortsätt handla"
+  },
+  "admin": {
+    "login": {
+      "title": "Inloggning för butikägare",
+      "subtitle": "Använd ditt verifierade Firebase-adminkonto.",
+      "email": "E-post",
+      "password": "Lösenord",
+      "submit": "Logga in",
+      "error": "Inloggningen misslyckades. Kontrollera dina uppgifter.",
+      "loading": "Loggar in..."
+    },
+    "nav": {
+      "overview": "Översikt",
+      "products": "Produkter",
+      "categories": "Kategorier",
+      "newsletters": "Nyhetsbrevsanmälningar",
+      "settings": "Inställningar"
+    },
+    "products": {
+      "title": "Produkter",
+      "create": "Lägg till produkt",
+      "empty": "Inga produkter ännu",
+      "published": "Publicerad",
+      "draft": "Utkast",
+      "price": "Pris",
+      "stock": "Lagersaldo",
+      "edit": "Redigera"
+    },
+    "categories": {
+      "title": "Kategorier",
+      "create": "Lägg till kategori"
+    },
+    "newsletters": {
+      "title": "Nyhetsbrevsanmälningar",
+      "export": "Exportera CSV"
+    },
+    "settings": {
+      "title": "Butiksinställningar",
+      "brandColor": "Primärfärg",
+      "accentColor": "Accentfärg",
+      "storeName": "Butiksnamn",
+      "save": "Spara ändringar"
+    }
+  }
+}
