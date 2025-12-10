@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /products/{id} {
+      allow read: if resource.data.active == true;
+      allow write: if request.auth != null && (request.auth.token.admin == true || request.auth.uid in get(/databases/$(database)/documents/siteSettings/singleton).data.adminUids);
+    }
+
+    match /categories/{id} {
+      allow read: if true;
+      allow write: if request.auth != null && (request.auth.token.admin == true || request.auth.uid in get(/databases/$(database)/documents/siteSettings/singleton).data.adminUids);
+    }
+
+    match /newsletters/{id} {
+      allow create: if true;
+      allow read: if request.auth != null && (request.auth.token.admin == true || request.auth.uid in get(/databases/$(database)/documents/siteSettings/singleton).data.adminUids);
+      allow delete, update: if request.auth != null && (request.auth.token.admin == true || request.auth.uid in get(/databases/$(database)/documents/siteSettings/singleton).data.adminUids);
+    }
+
+    match /siteSettings/{id} {
+      allow read: if true;
+      allow write: if request.auth != null && (request.auth.token.admin == true || request.auth.uid in get(/databases/$(database)/documents/siteSettings/singleton).data.adminUids);
+    }
+  }
+}
